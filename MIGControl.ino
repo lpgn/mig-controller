@@ -63,6 +63,7 @@ trigger|       on      |     on      |     on        |     on       |      on   
 #include <LiquidCrystal.h>
 // initialize the library with the numbers of the interface pins
 //LiquidCrystal lcd(23, 22, 16, 15, 14, 13); //tensy
+//// Create an LCD object. Parameters: (RS, E, D4, D5, D6, D7):
 LiquidCrystal lcd(2, 4, 5, 6, 7, 8); //arduino
 
 
