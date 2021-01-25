@@ -99,7 +99,7 @@ void setup() {
 
   //Motor control pins
   //  init_motor(12,11,10);//teensy
-  init_motor(9,10,11);//arduino
+  init_motor(9,10,11);//arduino in1,in2,enA
 
   //start eeprom and load the last used profile
   //eeprom_clear();
